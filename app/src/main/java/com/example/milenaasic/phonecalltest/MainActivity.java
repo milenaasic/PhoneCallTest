@@ -71,7 +71,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                         public void onClick(View v) {
                             requestPermissions(new String[]{CALL_PHONE}, REQUEST_CALL_PHONE);
                         }
-                    });
+                    }).show();
         } else {
             requestPermissions(new String[]{CALL_PHONE}, REQUEST_CALL_PHONE);
         }
